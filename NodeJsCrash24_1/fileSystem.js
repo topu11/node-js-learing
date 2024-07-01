@@ -20,7 +20,7 @@ fs.readFile('./namae.txt','utf8').then((data)=>{
 const  readingFile=async ()=>{
     try
     {
-        const data=await fs.readFile('./name.txt','utf8')
+        const data=await fs.readFile('./text.txt','utf8')
         console.log(data);
     }catch(error)
     {
@@ -55,3 +55,4 @@ const AppendFile = async ()=>{
 
 writeFile();
 AppendFile();
+readingFile();
