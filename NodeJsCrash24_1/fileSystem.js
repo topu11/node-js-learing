@@ -35,7 +35,7 @@ console.log("Ada");
 const writeFile = async ()=>{
     try
     {
-        await fs.writeFile('./text.txt',"Data into file 123");
+        await fs.writeFile('./text.txt',"Data into file 1234");
         console.log("Data written to file")
     }catch(error)
     {
